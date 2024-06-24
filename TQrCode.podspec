@@ -28,15 +28,17 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/72160249/TQrCode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'TQrCode/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TQrCode' => ['TQrCode/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TQrCode' => ['TQrCode/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+
 end

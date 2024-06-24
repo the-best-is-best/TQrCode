@@ -34,6 +34,6 @@ public struct QRCodeGeneratorView: View {
 
 struct QRCodeView_Previews: PreviewProvider {
     static var previews: some View {
-        QRCodeView(data: "121", logo: "logoImageName")
+        QRCodeGeneratorView(data: "121", logo: "logoImageName")
     }
 }

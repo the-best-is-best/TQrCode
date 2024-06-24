@@ -1,0 +1,16 @@
+PODS:
+  - TQrCode (0.1.0)
+
+DEPENDENCIES:
+  - TQrCode (from `../`)
+
+EXTERNAL SOURCES:
+  TQrCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TQrCode: bad5f6b8b1bacbf1d26dcbf03d68e733b0d787e4
+
+PODFILE CHECKSUM: a8d945007c7b6e13a219a22d569e3acf8b90f268
+
+COCOAPODS: 1.15.2

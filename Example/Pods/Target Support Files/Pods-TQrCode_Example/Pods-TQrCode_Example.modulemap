@@ -1,0 +1,6 @@
+framework module Pods_TQrCode_Example {
+  umbrella header "Pods-TQrCode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

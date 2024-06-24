@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.0'
 
 target 'TQrCode_Example' do
   pod 'TQrCode', :path => '../'
@@ -8,6 +8,5 @@ target 'TQrCode_Example' do
   target 'TQrCode_Tests' do
     inherit! :search_paths
 
-    
   end
 end

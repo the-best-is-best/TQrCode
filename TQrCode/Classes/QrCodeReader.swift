@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct QrCodeView: View {
+public struct QrCodeReaderView: View {
      var scannedCode: Binding<String>
 
     public init(scannedCode: Binding<String>) {
@@ -20,7 +20,7 @@ public struct QrCodeView: View {
                             simulatedData: "https://example.com/qrcode",
                             completion: { result in
                                 if case let .success(code) = result {
-                                    self.scannedCode = code
+                                    self.scannedCode.wrappedValue = code.string
                                 }
                             }
                         )
@@ -28,5 +28,5 @@ public struct QrCodeView: View {
 }
 
 #Preview {
-    TQrCode(scannedCode: .constant(""))
+    QrCodeReaderView(scannedCode: .constant(""))
 }

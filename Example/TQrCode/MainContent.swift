@@ -7,10 +7,17 @@
 //
 
 import SwiftUI
+import TQrCode
 
 struct MainContent: View {
+    @State private var newCode = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            QrCodeReaderView(scannedCode: $newCode).onChange(of: newCode) { _ in
+                print(newCode)
+                
+            }
+        }
     }
 }
 

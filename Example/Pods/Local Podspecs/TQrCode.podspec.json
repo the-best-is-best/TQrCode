@@ -1,0 +1,27 @@
+{
+  "name": "TQrCode",
+  "version": "0.1.0",
+  "summary": "A short description of TQrCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/72160249/TQrCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "72160249": "michelle.raouf@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/72160249/TQrCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "TQrCode/Classes/**/*",
+  "resource_bundles": {
+    "TQrCode": [
+      "TQrCode/Assets/*"
+    ]
+  }
+}

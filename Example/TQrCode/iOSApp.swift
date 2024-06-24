@@ -9,12 +9,12 @@
 import SwiftUI
 
 @main
-struct iosApp: App {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct iOSApp: App {
+   
+    var body: some Scene {
+    
+        WindowGroup {
+            MainContent()
+        }
     }
-}
-
-#Preview {
-    iosApp()
 }
