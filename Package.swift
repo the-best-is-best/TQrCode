@@ -14,11 +14,7 @@ let package = Package(
             name: "TQrCode",
             targets: ["TQrCode"]),
     ],
-      dependencies: [
-        // Add your Swift packages here
-        .package(url: "https://github.com/twostraws/CodeScanner.git", from: "2.5.0"),
-        // Add more packages if needed
-    ],
+     
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
